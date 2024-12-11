@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rubber Duck Pomodoro Timer</title>
+  <link rel="stylesheet" href="duckStyle.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <img src="C:\Users\NataliaBak\Downloads\rubber-duck.png" alt="Rubber Duck" class="rubber-duck">
+    </header>
+    <main>
+      <div class="timer">
+        <h1 id="time-display">00:00</h1>
+        <div class="controls">
+          <button id="start">▶</button>
+          <button id="pause">⏸</button>
+          <button id="reset">🔄</button>
+        </div>
+        <div class="modes">
+          <button id="pomodoro">Pomodoro</button>
+          <button id="short-break">Short Break</button>
+          <button id="long-break">Long Break</button>
+        </div>
+      </div>
+      <div class="tasks">
+        <h2>Tasks</h2>
+        <div id="task-list"></div>
+        <input type="text" id="new-task" placeholder="Add a new task">
+        <button id="add-task">Add Task</button>
+      </div>
+    </main>
+  </div>
+  <script src="ducktimer.js"></script>
+</body>
+</html>
